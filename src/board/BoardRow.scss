@@ -1,0 +1,13 @@
+.cell{
+  flex: 1;
+  &:not(:last-child){
+    border-right: 2px black dashed;
+  }
+}
+.row{
+  display: flex;
+  width: 31em;
+  &:not(:last-child){
+    border-bottom: 2px black dashed;
+  }
+}
