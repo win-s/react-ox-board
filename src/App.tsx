@@ -11,7 +11,7 @@ function App() {
   const [player,setPlayer] = useState(OXState.O);
   const [gameStatus,setGameStatus] = useState(GameState.NOT_END);
  
-  const blankBoard = new Array(3).fill([]).map( e => new Array(3).fill(OXState.Blank));;
+  const blankBoard = new Array(3).fill([]).map( e => new Array(3).fill(OXState.Blank));
   const [board,setBoard] = useState(blankBoard);
 
   const handleClick = ( x:number ,y:number ) => {
