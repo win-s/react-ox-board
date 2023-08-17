@@ -7,12 +7,12 @@ import OX from "./OX";
 function BoardRow(props: any){
   return (
     <div className="row">
-      {props.columns}
+      {/* {props.columns} */}
       {
         [0,1,2].map( (column) =>{
           return (
             <div className="cell" key={column}>
-              {props.columns[column]}
+              {/* {props.columns[column]} */}
               <OX
                 value={props.columns[column]}
                 onClick={props.onClick(column)}/>
